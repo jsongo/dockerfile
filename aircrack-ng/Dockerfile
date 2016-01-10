@@ -4,8 +4,8 @@ MAINTAINER jsongo "jsongo@qq.com"
 # Usage:
 # docker run -it --cap-add NET_ADMIN --net host pandrew/aircrack-ng
 
-ADD crackloop /bin/crackloop
-RUN chmod +x /bin/crackloop
+#ADD crackloop /bin/crackloop
+#RUN chmod +x /bin/crackloop
 
 RUN apt-get update && apt-get -y install \
     --no-install-recommends \
